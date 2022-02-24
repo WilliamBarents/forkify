@@ -1,4 +1,6 @@
-const recipeContainer = document.querySelector('.recipe');
+const { test } = require("picomatch");
+
+const recipeContainer = document.querySelector(".recipe");
 
 const timeout = function (s) {
   return new Promise(function (_, reject) {
@@ -11,3 +13,5 @@ const timeout = function (s) {
 // https://forkify-api.herokuapp.com/v2
 
 ///////////////////////////////////////
+
+console.log(test);
